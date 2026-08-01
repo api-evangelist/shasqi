@@ -1,7 +1,26 @@
 aid: shasqi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shasqi.png
 name: Shasqi
-description: Shasqi is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Shasqi is a clinical-stage biotechnology company advancing cancer treatment through
+  click chemistry. Its CAPAC (Click Activated Protodrugs Against Cancer) platform uses a
+  pre-targeting approach that captures therapeutic payloads at the tumor via in-vivo click
+  chemistry, separating tumor-targeting molecules from their drug payloads and reuniting them
+  at the cancer site to maximize drug delivery while reducing systemic toxicity. The company
+  builds on the 2022 Nobel Prize-winning click chemistry work and operates as a therapeutics
+  developer rather than a technology or API platform. Added to the API Evangelist network as a
+  Y Combinator portfolio company; enrichment found no public developer API, SDK, or technical
+  platform surface.
 url: https://raw.githubusercontent.com/api-evangelist/shasqi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Cancer Therapeutics
+- Click Chemistry
+- Drug Development
+- Life Sciences
+common:
+- type: DomainSecurity
+  url: security/shasqi-domain-security.yml
+- type: Website
+  url: https://shasqi.com
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
